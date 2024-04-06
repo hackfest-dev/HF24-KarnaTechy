@@ -120,7 +120,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Define the static root directory
 # STATIC_ROOT = os.path.join(BASE_DIR, 'static/static')
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static/static'),
+    os.path.join(BASE_DIR, 'static'),
 ]
 
 # Static files (CSS, JavaScript, Images)
